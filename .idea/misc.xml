@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo_round.xml" value="0.1045" />
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml" value="0.1945" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_principal_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_schedule_date.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_select_date.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/activity_sign_up.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/custom_spinner.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/layout/custom_spinner_dropdown.xml" value="0.22447916666666667" />
+        <entry key="..\:/Program Files/BarberShopADH/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

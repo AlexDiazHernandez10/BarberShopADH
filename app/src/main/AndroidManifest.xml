@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.barbershopadh">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="BarberShop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pastel">
+        <activity
+            android:name="com.example.barbershopadh.Info"
+            android:label="Conose la perluqueria"
+            android:parentActivityName="com.example.barbershopadh.PrincipalMenu">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.PrincipalMenu" />
+        </activity>
+        <activity
+            android:name="com.example.barbershopadh.SelectDate"
+            android:label="@string/select_date"
+            android:parentActivityName="com.example.barbershopadh.PrincipalMenu">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.PrincipalMenu" />
+        </activity>
+        <activity
+            android:name="com.example.barbershopadh.ScheduleDate"
+            android:label="@string/schedule_date"
+            android:parentActivityName="com.example.barbershopadh.PrincipalMenu">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.PrincipalMenu" />
+        </activity>
+        <activity
+            android:name="com.example.barbershopadh.PrincipalMenu"
+            android:label="Inicio"
+            android:parentActivityName="com.example.barbershopadh.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.barbershopadh.SignUp"
+            android:label="@string/sign_up"
+            android:parentActivityName="com.example.barbershopadh.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.MainActivity" />
+        </activity>
+        <activity android:name="com.example.barbershopadh.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
