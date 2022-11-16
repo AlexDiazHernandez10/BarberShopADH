@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/layout/activity_info.xml" value="0.25" />
         <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/layout/activity_principal_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/layout/activity_schedule_date.xml" value="0.22447916666666667" />
         <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo_round.xml" value="0.1045" />
         <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1045" />
         <entry key="..\:/AndroidStudio/BarberShopADH-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml" value="0.1945" />

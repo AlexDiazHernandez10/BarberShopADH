@@ -5,9 +5,12 @@ import android.widget.ArrayAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.SupportMapFragment;
+
 public class Info extends AppCompatActivity {
 
-
+    GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,5 +19,6 @@ public class Info extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.icon, R.layout.custom_spinner);
         adapter.setDropDownViewResource(R.layout.custom_spinner_dropdown);
+
     }
 }

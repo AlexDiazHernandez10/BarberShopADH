@@ -10,15 +10,24 @@
         android:label="BarberShop"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Pastel">
+        android:theme="@style/Theme.Pastel"
+        >
         <activity
             android:name="com.example.barbershopadh.Info"
+            android:screenOrientation="portrait"
             android:label="Conose la perluqueria"
-            android:parentActivityName="com.example.barbershopadh.PrincipalMenu">
+            android:parentActivityName="com.example.barbershopadh.PrincipalMenu"
+
+        >
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.barbershopadh.PrincipalMenu" />
+               android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.barbershopadh.PrincipalMenu"/>
+            <!--android:name="con.google.android.geo.API_KEY"
+      android:value="AIzaSyBdyyRNRPopkvz-_Q6nPUDtygdy6vnx7mQ"-->
+
+
+
         </activity>
         <activity
             android:name="com.example.barbershopadh.SelectDate"
@@ -42,8 +51,10 @@
         </activity>
         <activity
             android:name="com.example.barbershopadh.PrincipalMenu"
+            android:screenOrientation="portrait"
             android:label="Inicio"
-            android:parentActivityName="com.example.barbershopadh.MainActivity">
+            android:parentActivityName="com.example.barbershopadh.MainActivity"
+            tools:ignore="LockedOrientationActivity">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data

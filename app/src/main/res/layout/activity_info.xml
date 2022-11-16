@@ -21,9 +21,10 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
-                android:layout_height="200dp"
+                android:layout_height="221dp"
                 android:contentDescription="Tomas de Orendain, Porfirio Díaz, 46470 Magdalena, Jal."
-                app:srcCompat="@drawable/mapa1" />
+                app:srcCompat="@drawable/mapa3"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -39,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:text="Ubicacion de la peluqueria"
+                android:text="Tomas de Orendain, Porfirio Díaz, 46470 Magdalena, Jal."
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
